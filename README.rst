@@ -25,8 +25,8 @@ Curently Tested
 * Subroutine with no arguments
 * Subroutine with integer ``intent(in)``
 * Subroutine with real ``intent(in)``
-* Subroutine with integer array ``intent(in)``
-* Subroutine with real array ``intent(in)``
+* Subroutine with integer array ``intent(in)`` (fixed dimension)
+* Subroutine with real array ``intent(in)`` (fixed dimension)
 
 -------------------
 Things To Also Test
@@ -36,3 +36,4 @@ Things To Also Test
 * Allocatable arrays (I suspect this will not work)
 * Derived-type arguments
 * Arrays with ``dimension(:)`` attribute
+* Maybe wrap this all in a [python] class?

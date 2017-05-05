@@ -4,12 +4,18 @@ import ctypes
 
 """
 $ nm ../fortran/libfort.so
-0000000000000ee3 T ___hello_mod_MOD_print_hello
+0000000000000a73 T ___hello_mod_MOD_print_hello
+0000000000000ae6 T ___pass_ints_mod_MOD_print_array
+0000000000000bec T ___pass_ints_mod_MOD_print_val
+0000000000000c69 T ___pass_reals_mod_MOD_print_array
+0000000000000d73 T ___pass_reals_mod_MOD_print_val
                  U __gfortran_st_write
                  U __gfortran_st_write_done
+                 U __gfortran_transfer_array_write
                  U __gfortran_transfer_character_write
+                 U __gfortran_transfer_integer_write
+                 U __gfortran_transfer_real_write
                  U dyld_stub_binder
-
 """
 
 ###########################
