@@ -35,3 +35,4 @@ Things To Also Test
 * Various ``intent(out)`` types
 * Allocatable arrays (I suspect this will not work)
 * Derived-type arguments
+* Arrays with ``dimension(:)`` attribute
